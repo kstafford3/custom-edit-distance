@@ -1,6 +1,9 @@
 # Custom Edit Distance<sup id="a1">[1](#f1)
 ### *The usual algorithm<sup id="a2">[2](#f2)</sup> with customizable costs.*
 
+[![npm version](https://badge.fury.io/js/custom-edit-distance.svg)](https://www.npmjs.com/package/custom-edit-distance)
+[![Build Status](https://travis-ci.org/kstafford3/custom-edit-distance.svg?branch=mater)](https://travis-ci.org/kstafford3/custom-edit-distance)
+
 # Install
 ```sh
 npm install custom-edit-distance
