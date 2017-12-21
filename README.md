@@ -67,6 +67,13 @@ const valueDistanceCalculator = new CustomEditDistance({
 valueDistanceCalculator.editDistance([2, 3, 4], [1, 2, 3]).should.equal(3);
 ```
 
+# Get the cost matrix
+```js
+const defaultCalculator = new CustomEditDistance();
+const costMatrix = defaultCalculator.editCosts('sitting', 'kitten').should.equal(3);
+```
+From this you could determine the edit path, or inspect the cost of other edit paths.
+
 # Reference
 <a id="f1"/>[Edit Distance](https://en.wikipedia.org/wiki/Edit_distance) [↩](#a1)
 
