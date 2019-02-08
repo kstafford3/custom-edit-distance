@@ -1,6 +1,6 @@
 {
   "name": "custom-edit-distance",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Customizable edit distance calculator",
   "main": "lib/index.js",
   "scripts": {
